@@ -24,9 +24,9 @@ end
 def until_iterator(number_of_times)
   counter = 0
   phrase = "Welcome to Flatiron School's Web Development Course!"
-until counter == number_of_times
-puts phrase
-number_of_times += 1 
+  until counter == number_of_times
+  puts phrase
+  number_of_times += 1 
 end
 end
 
